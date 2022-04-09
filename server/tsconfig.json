@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es2020"
+    ],
+    "module": "commonjs",
+    "target": "es2019",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "outDir": "build",
+    "rootDir": "src"
+  },
+  "include": [
+    "src/**/*",
+    "../common/**/*"
+  ],
+  "exclude": [
+    "../node_modules",
+    "../common",
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "watch": [
+    "common/**/*",
+    "server/src/**/*"
+  ],
+  "ext": "ts,json",
+  "ignore": [
+    "src/**/*.spec.ts",
+    "server/src/common"
+  ],
+  "exec": "cp -r common server/src/ && tsc --project server/tsconfig.json && node server/build/index.js"
+}

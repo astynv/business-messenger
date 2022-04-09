@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "server"
+		}
+	],
+	"settings": {
+		"editor.tabSize": 2,
+		"standard.engine": "ts-standard"
+	}
+}

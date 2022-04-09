@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "command": "npm --prefix ./server run test",
+            "name": "Compile and run server",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "command": "npm --prefix ./server run run",
+            "name": "Run server",
+            "request": "launch",
+            "type": "node-terminal"
+        }
+
+
+    ]
+}
